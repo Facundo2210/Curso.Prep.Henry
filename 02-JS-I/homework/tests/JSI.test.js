@@ -1,10 +1,10 @@
 /* eslint-disable no-undef */
 const {
   nuevaString,
-  nuevoNum,
-  nuevoBool,
-  nuevaResta,
-  nuevaMultiplicacion,
+  nuevoNum ,
+  nuevoBool ,
+  nuevaResta ,
+  nuevaMultiplicacion ,
   nuevoModulo,
   devolverString,
   tienenMismaLongitud,
@@ -29,7 +29,7 @@ const {
   obtenerAreaRectangulo,
 } = require('../homework.js');
 
-describe('nuevaString', function() {
+describe('string', function() {
   it('Deberia ser un string', function() {
     expect(typeof nuevaString).toBe('string');
   });
