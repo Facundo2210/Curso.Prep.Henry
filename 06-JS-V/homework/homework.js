@@ -55,3 +55,17 @@ module.exports = {
   agregarMetodoPrototype,
   agregarStringInvertida
 };
+
+
+
+function Persona (nombre , apellido, ciudad){
+  this.nombre = nombre,
+  this.apellido = apellido,
+  this.ciudad = ciudad
+  }
+
+  Persona.prototype.saludar = function(){
+    console.log ( "hola mi nombre es " + this.nombre + " y soy de " + this.ciudad)
+  }
+
+  var juan = new Persona("juan", "perez", "buenos aires")
