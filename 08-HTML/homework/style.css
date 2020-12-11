@@ -4,12 +4,12 @@ h1 {
 img {
     width: 400px;
 }
-div.thirdDiv { 
+#thirdDiv { 
     width: 500px;
     height: 600px;
     background-color: red;
     padding: 50px;
-    border-top: 12px black;
+    border: 56px black solid;
     
 }
 
