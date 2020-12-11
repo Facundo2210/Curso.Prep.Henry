@@ -1,0 +1,19 @@
+h1 { 
+    color: red
+}
+img {
+    width: 400px;
+}
+div.thirdDiv { 
+    width: 500px;
+    height: 600px;
+    background-color: red;
+    padding: 50px;
+    border-top: 12px black;
+    
+}
+
+.spanId {
+    font-size: 18px;
+    margin: 50px;
+}
